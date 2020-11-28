@@ -1,0 +1,152 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/IMG_2166.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.center2 {
+    width: 900px;
+	padding: 2%;
+    margin: 100px auto;
+	text-align: center;
+}
+
+.center {
+    width: 900px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(211, 211, 211, 0.664); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+}
+ 
+#logo {
+	width: 600px;
+    margin-bottom: 0px;
+	text-align: center;
+}
+
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/cfy2kln.css"> */ font-family: rift,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 2em;
+    margin: 10px auto 10px auto;
+    color: #444;
+}
+
+h2 {
+	 /* <link rel="stylesheet" href="https://use.typekit.net/cfy2kln.css"> */ font-family: neue-haas-unica,sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+	color:#444;
+    padding: 5px 0px;
+    margin: 10px auto 25px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/cfy2kln.css"> */ font-family: neue-haas-unica,sans-serif;
+font-weight: 300;
+font-style: italic;
+	font-size: 1.0 em;
+	line-height: 1.5;
+	margin: 10px;
+    color: #fff;
+}
+
+nav{
+	font-family: rift,sans-serif;
+	font-size: 1.2em;
+	width: 800px;
+	margin: 10px auto;
+	border-width: 3px,10px,3px,10px;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: incline-block;
+	padding: 5px;
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: white;
+	background: rgb(223, 175, 83);
+}
+
+
